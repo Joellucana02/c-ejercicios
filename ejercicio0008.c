@@ -41,7 +41,7 @@ int main()
         srand(time(0));
         n = numbers(max,min);
         r = numbers(max,min);
-    } while (n>r);
+    } while (n<r);
     
     print(n,r);      
     }
